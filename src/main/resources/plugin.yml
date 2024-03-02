@@ -1,0 +1,4 @@
+name: TotenProject
+version: '${project.version}'
+main: me.test.totenproject.TotenProject
+api-version: '1.20'
