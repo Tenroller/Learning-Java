@@ -9,7 +9,7 @@ public class Toten {
     private long Life;
     private Location location;
 
-    public Toten(String Id, String Name, long Life, Location location) {
+    public Toten(String Id, long Life, Location location) {
         this.Id = Id;
         this.Name = Name;
         this.Life = Life;
@@ -50,6 +50,10 @@ public class Toten {
     }
 
 
+    // This method should spawn a toten at the location specified in the constructor
+    public void spawn() {
 
 
+
+    }
 }
